@@ -47,12 +47,12 @@
         <repository>
             <id>gbif</id>
             <name>GBIF Nexus Repository</name>
-            <url>http://repository.gbif.org/content/groups/public/</url>
+            <url>https://repository.gbif.org/content/groups/public/</url>
         </repository>                 
         <repository>
             <id>ala</id>
             <name>ALA Nexus Repository</name>
-            <url>http://nexus.ala.org.au/content/groups/public/</url>
+            <url>https://nexus.ala.org.au/content/groups/public/</url>
         </repository>        
       </repositories>
              
