@@ -26,7 +26,15 @@
       <url>http://repository.gbif.org/content/groups/public/</url>
     </mirror>
   </mirrors>          
--->          
+-->
+   <!-- Redirect GBIF http based repo definition to https -->
+    <mirrors>
+        <mirror>
+            <id>cloudera-https-mirror</id>
+            <mirrorOf>cloudera-repos</mirrorOf>
+            <url>https://repository.cloudera.com/artifactory/cloudera-repos/</url>
+        </mirror>
+    </mirrors>
   <profiles>
     <profile>
       <id>nexus</id>
